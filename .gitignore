@@ -1,0 +1,38 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python environments and caches (if used by an exercise)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Notebook checkpoints; the notebooks themselves remain trackable
+.ipynb_checkpoints/
+
+# Generated build and packaging directories
+build/
+dist/
+cmake-build-*/
+
+# Bulk downloaded data and regenerable outputs, at any week depth
+**/data/raw/
+**/data/downloads/
+**/outputs/
+
+# Local editor and operating-system files
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
